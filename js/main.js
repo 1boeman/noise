@@ -11,20 +11,20 @@ $(function(){
   var mv2 = 1; 
   var mv3 = 1; 
   var draw = function(){
-    mv1 -= 1; 
+    mv1 += 1; 
     mv2 -= 2; 
-    mv3 -= 3; 
+    mv3 += 3; 
   
-    $layer1.css('left',mv1+'px');
-    $layer1.css('top',mv1+'px');
+    $layer1.css('background-position-x',mv1+'px');
+    $layer1.css('background-position-y',mv2+'px');
  
-    $layer2.css('left',mv2+'px');
-    $layer2.css('top',mv2+'px');
+    $layer2.css( 'background-position-x' ,mv2+'px');
+    $layer2.css( 'background-position-y',mv1+'px');
 
-    $layer3.css('left',mv3+'px');
-    $layer3.css('top',mv3+'px');
+    $layer3.css( 'background-position-x' ,mv3+'px');
+    $layer3.css( 'background-position-y',mv3+'px');
  
-    setTimeout(draw,10);
+    setTimeout(draw,100);
   };
   draw();
 });
