@@ -6,12 +6,11 @@ body{
 
 .layer{
 width:100%;
-height:999px;
+height:2999px;
 position:absolute;
 top:0px;
 left:0px;
-
-opacity:0.8;
+opacity:0.3;
 }
 
 .layer1 {
@@ -25,7 +24,9 @@ background:url('../img/image_5d15e30370a118.49104395_optimised.png');
 
 }
 .layer3 {
+background:url('../img/image_5d15e30370a118.49104395_optimised.png');
 
-background:url('../img/image_5d15e421550cf3.49328307_optimised.png');
+
+/*background:url('../img/image_5d15e421550cf3.49328307_optimised.png');*/
   
 }
